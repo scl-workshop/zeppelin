@@ -7,22 +7,34 @@ permalink: /
 
  {% include about.html %}
 
+ {% if site.statisticBlockEnabled %}
  {% include statistic.html %}
+ {% endif %}
 
+ {% if site.latestNewsEnabled %}
  {% include latest-news.html %}
+ {% endif %}
 
+ {% if site.rockstarSpeakersEnabled %}
  {% include rockstar-speakers.html %}
+ {% endif %}
 
  {% include location-map.html %}
 
  {% include venue.html %}
  
+ {% if site.twitterFeedEnabled %}
  {% include twitter-feed.html %}
+ {% endif %}
+
 
  {% include partners.html %}
 
+ {% if site.subscribeEnabled %}
  {% include subscribe.html %}
+ {% endif %}
 
+ {% if site.ticketsEnabled %}
  {% include tickets.html %}
-
  {% include tickets-2.html %}
+ {% endif %}
