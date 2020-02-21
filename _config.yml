@@ -54,6 +54,9 @@ bottomNavigationLinks:
 rightNavigationButtons:
  - {link: "https://forms.gle/4YywbsV5bb8wWR236", text: "Apply to attend"}
 
+
+scheduleEnabled: false
+
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "Secure Collaborative Learning Workshop"

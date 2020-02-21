@@ -123,12 +123,28 @@ nav {
                     color: $main-color;
                 }
             }
+            &.my-current, &:hover {
+                text-decoration: none;
+                //color: $nav-color-hover;
+                color: $nav-scroll-color-hover;
+                @media (max-width: 767px) {
+                    color: $main-color;
+                }
+            }
             .top-header.after-scroll & {
                 color: $nav-scroll-color;
                 @media (max-width: 767px) {
                     top: 20px;
                 }
                 &.current, &:hover {
+                    color: $nav-scroll-color-hover;
+                    @media (max-width: 767px) {
+                        color: $main-color;
+                    }
+                }
+                &.my-current, &:hover {
+                    text-decoration: none;
+                    //color: $nav-color-hover;
                     color: $nav-scroll-color-hover;
                     @media (max-width: 767px) {
                         color: $main-color;

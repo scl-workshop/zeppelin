@@ -1,6 +1,6 @@
 - 
-  date: "TBA" #"17 May, 2020"
-  dateReadable: "TBA" #"May 17"
+  date: "17 May, 2020"
+  dateReadable: "May 17"
   tracks: 
     #- {title: "Talk", color: "#90be4e"}
     #- {title: "Web & Cloud", color: "#03a9f4"}

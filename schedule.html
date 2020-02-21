@@ -7,4 +7,12 @@ image: schedule.jpg
 
 {% include top-section.html %}
 
+{% if site.scheduleEnabled %}
 {% include schedule.html %}
+{% else %}
+<!--<div class="content-wrapper">-->
+    <div class="col-lg-10 col-lg-offset-1">
+        <h3> TBA </h3>
+    </div>
+<!--</div>-->
+{% endif %}
