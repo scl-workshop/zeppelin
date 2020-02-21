@@ -1,13 +1,16 @@
 <!-- Begin Location Section -->
 <section id="location-map" class="location-map">
-    <div id="canvas-map" class="canvas-map"></div>
+    <div id="canvas-map" class="canvas-map">
+        <div class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueBigImage }})"></div>
+    </div>
     <div class="content-wrapper">
         <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
             <div class="row">
                 <div class="pull-left">
                     <h3>{{ site.locationBlockTitle }}</h3>
                     <ul>
-                        {% if site.eventLocationName %}<li>{{ site.eventLocationName }}</li>{% endif %}
+                        {% if site.eventLocationName %}<h4>{{ site.eventLocationName }},</h4>{% endif %}
+                        {% if site.eventLocationName2 %}<h4>{{ site.eventLocationName2 }}</h4>{% endif %}
                         <li>{{ site.eventStreetAddress }}, {{ site.eventAddressLocality }}</li>
                         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
                         <li>
@@ -18,11 +21,11 @@
                         </li>
                     </ul>
                 </div>
-                <a href="{{ site.baseurl | append: '/logistics/#find-way' }}" class="pull-right">
-                    <svg class="icon icon-direction" viewBox="0 0 32 32">
-                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-direction"></use>
-                    </svg>
-                </a>
+                <!--<a href="{{ site.baseurl | append: '/logistics/#find-way' }}" class="pull-right">-->
+                <!--    <svg class="icon icon-direction" viewBox="0 0 32 32">-->
+                <!--        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-direction"></use>-->
+                <!--    </svg>-->
+                <!--</a>-->
             </div>
         </div>
     </div>

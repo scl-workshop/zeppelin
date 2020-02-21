@@ -21,7 +21,9 @@ permalink: /
 
  {% include location-map.html %}
 
+ {% if site.venueEnabled %}
  {% include venue.html %}
+ {% endif %}
  
  {% if site.twitterFeedEnabled %}
  {% include twitter-feed.html %}
