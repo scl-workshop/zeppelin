@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Secure Collaborative Learning Workshop"
 email: "scl-organizers@gmail.com"
 #description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
+baseurl: ""
 url: "https:/scl-workshop.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
