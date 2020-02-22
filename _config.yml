@@ -131,6 +131,7 @@ twitterFeedEnabled: false
 # Partners Block
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
+partnersEnabled: false
 #partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
